@@ -17,13 +17,13 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - EnemyAgrArea
+  - Platforms
+  - GroundChecker
+  - EnemyAttackArea
+  - PlayerAttackArea
+  - Enemy
   - 
   - 
   - 

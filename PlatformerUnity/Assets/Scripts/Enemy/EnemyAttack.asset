@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: EnemyAttack
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptGraphAsset
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Enter","label":null,"summary":null,"hideLabel":false}],"controlOutputDefinitions":[],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":null,"_type":"UnityEngine.GameObject","key":"EnemyObject","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":22.80485,"y":0.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-177.0,"y":-72.0},"guid":"23ff3425-40d5-4525-8abb-02d7e7093dea","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"11"},{"chainable":false,"parameterNames":["name"],"member":{"name":"SetTrigger","parameterTypes":["System.String"],"targetType":"UnityEngine.Animator","targetTypeName":"UnityEngine.Animator","$version":"A"},"defaultValues":{"target":null,"%name":{"$content":"Attack","$type":"System.String"}},"position":{"x":-12.0,"y":-71.0},"guid":"c8a1a5c3-9c44-45db-9277-b40e553f4641","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"13"},{"sourceUnit":{"$ref":"11"},"sourceKey":"Enter","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"551df831-70bb-4b76-b7c3-7f40dcb050a8","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"EnemyObject","destinationUnit":{"$ref":"13"},"destinationKey":"target","guid":"a568a81d-9e82-4a87-b55a-ece84c2fa6bd","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
